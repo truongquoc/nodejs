@@ -1,0 +1,106 @@
+.section-introduce {
+    padding: 200px 0;
+}
+.section-work {
+    background: url('../images/bg-image-26.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.title h2 {
+    color: #fff;
+    margin: 20px auto ;
+    text-transform: capitalize;
+
+}
+
+.section-work .overlay-landipage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    opacity: .7;
+    z-index: 1;
+}
+.animated-icon {
+    z-index: 2;
+    width: 55px;
+    margin: 0 auto;
+    height: 55px;
+}
+.animated-icon {
+    margin-top: 100px;
+}
+.align-center h4 {
+    text-align: center;
+}
+.left-check-list .data-list:nth-of-type(1)::after {
+    content: "Research";
+    font-size: 16px;
+   
+}
+.left-check-list .data-list:nth-of-type(2)::after {
+    content: "Opportunity Analysis";
+    font-size: 16px;
+   
+}
+.left-check-list .data-list:nth-of-type(3)::after {
+    content: "Consulting";
+    font-size: 16px;
+
+}
+.left-check-list .data-list:nth-of-type(4)::after {
+    content: "Brand Planning";
+    font-size: 16px;
+
+}
+.left-check-list .data-list:nth-of-type(5)::after {
+    content: "Customer Support";
+    font-size: 16px;
+    
+}
+.right-check-list .data-list:nth-of-type(1)::after {
+    content: "Logo & Branding";
+    font-size: 16px;
+ 
+}
+.right-check-list .data-list:nth-of-type(2)::after {
+    content: "Style guides";
+    font-size: 16px;
+
+}
+.right-check-list .data-list:nth-of-type(3)::after {
+    content: "Motion graphics";
+    font-size: 16px;
+
+}
+.right-check-list .data-list:nth-of-type(4)::after {
+    content: "UX/UI-design";
+    font-size: 16px;
+
+}
+.right-check-list .data-list:nth-of-type(5)::after {
+    content: "Social media design";
+    font-size: 16px;
+   color: #fff;
+
+}
+
+
+
+
+
+
+.nav-custom {
+    margin-top: -100px;
+    font-size: 20px;    
+}
+.section-information {
+    top: 750px;
+}
+.section-test {
+    height: 300px;
+    background: red;
+}

@@ -1,0 +1,1523 @@
+<html lang="en">
+
+<head>
+    <title>Parallax Page</title>
+    <!-- Favicon -->
+    <!--- bootstrap-->
+    <!-- Main style sheet -->
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
+    <!-- component -->
+    <link rel="stylesheet" href="./assets/css/component.css">
+    <!-- progress bar -->
+    <link rel="stylesheet" href="./assets/css/progress-bar.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+        integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <!-- modal video -->
+    <link rel="stylesheet" href="./assets/css/modal-video.min.css">
+    <!-- particle -->
+    <link rel="stylesheet" href="./assets/css/particle.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <!-- Responsive -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+
+<body>
+    <!--
+    =============================================
+    Navigation Bar
+    
+    =============================================
+    -->
+    <nav class="navbar navbar__menu">
+        <div class="container-fluid">
+            <ul class="nav navbar-default navbar__menu__custom">
+                <li><a href="#" class="font-color-white"> HOME</a>
+                    <ul class="popup">
+                        <li><a href="#" class="font-color-white">about us</a></li>
+                        <li><a href="#" class="font-color-white">skill</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="font-color-white color--green"> ABOUT</a>
+                    <ul class="popup">
+                        <li><a href="#" class="font-color-white">about us</a></li>
+                        <li><a href="#" class="font-color-white">skill</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="font-color-white color--green"> PRODUCTS</a>
+                    <ul class="popup">
+                        <li><a href="#" class="font-color-white">information</a></li>
+                        <li><a href="#" class="font-color-white">service</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="font-color-white color--green">PROMOTIONS</a>
+                    <ul class="popup">
+                        <li><a href="#" class="font-color-white">information</a></li>
+                        <li><a href="#" class="font-color-white">service</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="font-color-white color--green"> NEWS</a>
+                    <ul class="popup">
+                        <li><a href="#" class="font-color-white">information</a></li>
+                        <li><a href="#" class="font-color-white">service</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="navbar-header ">
+                <div class="logo-item">
+                    <img src="https://avada.theme-fusion.com/modern-shop/wp-content/uploads/sites/27/2015/11/modern_logo_1x.png"
+                        srcset="https://avada.theme-fusion.com/modern-shop/wp-content/uploads/sites/27/2015/11/modern_logo_1x.png 1x, https://avada.theme-fusion.com/modern-shop/wp-content/uploads/sites/27/2015/11/modern_logo_2x.png 2x"
+                        width="135" height="135" style="max-height:135px;height:auto;" alt="Modern Shop Logo"
+                        data-retina_logo_url="https://avada.theme-fusion.com/modern-shop/wp-content/uploads/sites/27/2015/11/modern_logo_2x.png"
+                        class="fusion-standard-logo">
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggler"
+                aria-controls="navtoggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navtoggler">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">Price</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <nav class="navbar navbar__fixed">
+        <div class="container-fluid">
+            <div class="navbar__fixed__scrolled">
+                <ul class="navbar__fixed__scrolled__list">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Introduce</a></li>
+                    <li><a href="">Information</a></li>
+                    <li><a href="">Skill</a></li>
+                    <li><a href="">service</a></li>
+                    <li><a href="">client</a></li>
+                    <li><a href="">footer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <section class="parallax">
+
+            <div class="fixed">
+                <div class="parallax__fixed">
+                    <div class="parallax__fixed__content">
+                        <div class="parallax__fixed__content__img">
+                            <img src="./assets/images/home-slide2.jpg"
+                                style="width:100%; height:100%">
+                        </div>
+                        <div class="parallax__fixed__content__title">
+                            <h1 class="">Disrupting</h1>
+
+                            <p class="">WebCorpCo is at the forefront of digital marketing,
+                                content management.</p>
+                            <a class="btn btn-transparent btn-lg text-uppercase" href="">Learn
+                                More</a>
+                        </div>
+                    </div>
+                    <div class="parallax__fixed__content">
+                        <div class="parallax__fixed__content__img">
+                            <img src="./assets/images/banner.jpg" style="width:100%; height:100%">
+                        </div>
+                        <div class="parallax__fixed__content__title">
+                            <h1 class="big">Disrupting</h1>
+
+                            <p class="small">WebCorpCo is at the forefront of digital marketing,
+                                content management.</p>
+                            <a class="btn btn-transparent btn-lg text-uppercase" href="">Learn
+                                More</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </header>
+
+    <!--
+    =============================================
+    Main Page
+    =============================================
+    -->
+    <main>
+        <!--SECTION-INTRODUCE-->
+        <section class="section introduce">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <div class="introduce__content">
+                            <div>
+                                <div class="introduce__content__img"></div>
+                                <div class="introduce__content__title">
+                                    <h2>Who we are</h2>
+                                </div>
+                                <div class="introduce__content_paragraph">
+                                    <p>Clink below to watch our video</p>
+                                </div>
+                                <div class="introduce__content__button"> <a
+                                        class="fusion__button btn button-darkgray js-video-button" data-channel="video"
+                                        data-video-url="./assets/video/Tokyo Night View.mp4"><i
+                                            class=" fa fa-play button-icon-left"></i><span
+                                            class="fusion-button-text">Watch Video</span></a></div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay-introduce">
+
+                </div>
+            </div>
+        </section>
+        <section class="section information pt-10">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col col-lg-4" id="introduce--hiden">
+                        <!--img-->
+                        <div class="information__background">
+                            <div class="information__background__attachment">
+
+                            </div>
+                            <div class="information__background__line">
+                                <h2>my skills</h2>
+                                <div class="information__line--yellow"></div>
+                            </div>
+                        </div>
+
+                        <div class="overlay">
+
+                        </div>
+                    </div>
+                    <div class="col col-lg-7 px-5">
+                        <div class="row">
+                            <div class="information">
+                                <div class="information__title">
+                                    <div class="information__title__custom">
+                                        <h3>who i am</h2>
+                                    </div>
+                                    <h2>about me</h2>
+                                </div>
+                                <div class="information__line">
+                                    <div class="information__line--yellow"></div>
+                                </div>
+                                <div class="informatiuon__content">
+                                    <div class="row">
+                                        <div class="col-lg-5">
+                                            <div class="information__content__img"></div>
+                                        </div>
+                                        <div class="col-lg-7">
+                                            <div class="information__content__paragraph">
+                                                <h5>GWENN STERN</h5>
+                                                <h3>WEB DESIGNER & WEB </h3>
+                                                <h3><span class="paragraph--yellow">DEVELOPER</span> FROM USA</h3>
+                                                <p>Asunt in anim uis aute irure dolor in reprehenderit in voluptate
+                                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                    occaecat cupidatat non proident, sunt in anim id est laborum.
+                                                    Allamco laboris nisi ut aliquip ex ea commodo consequat. Aser velit
+                                                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                                    cupidatat non proident, sunt in anim id est laborum.
+
+                                                    Aser velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                                    sint occaecat cupidatat non proident, sunt in anim id est laborum.
+                                                </p>
+                                            </div>
+                                            <div class="information__content__button">
+                                                <button type="button" class="button--yellow"><i
+                                                        class="fa fa-angle-right"></i><span>view work</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-3 col-sm-12">
+                                            <div class="informatiuon__content__factitle">
+                                                <h3>some facts</h3>
+                                                <!-- <p>finished projects</p> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-4">
+                                            <div class="information__content__number">
+                                                <h1 class="counter">1,444</h1>
+                                                <p>finished projects</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-4">
+                                            <div class="information__content__number">
+                                                <h1 class="counter">10,000</h1>
+                                                <p>working hours</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-sm-4">
+                                            <div class="information__content__number">
+                                                <h1 class="counter">32,000</h1>
+                                                <p>working hours</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION--SERVICE -->
+        <!-- <section class="section service">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-lg-3">
+            <ul class="service__content">
+                <li>
+                   
+                  <div class="service__content__heading">
+                    <div class="service__content__heading__icon">
+                      
+                        <div class="heading__icon--red">
+                          
+                          <div class="hi-icon">
+                              <i  class="fontawesome-icon  fas fa-unlink circle-yes"></i>
+                          </div>
+                          
+                        
+
+
+
+                        </div>
+                     
+                    </div>
+                    <h5>
+                        Strength & Conditioning
+                    </h5>
+                  </div>
+                </li>
+                <li>
+                  <div class="service__content__paragraph">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                  </div>
+                </li>
+            </ul>
+          </div>
+          <div class="col col-lg-3">
+              <ul class="service__content">
+                  <li>
+                     
+                    <div class="service__content__heading">
+                      <div class="service__content__heading__icon">
+                        
+                          <div class="heading__icon--red">
+
+                            <div class="hi-icon">
+                                <i  class="fontawesome-icon  fas fa-unlink circle-yes"></i>
+                            </div>
+                            
+                          
+  
+  
+  
+                          </div>
+                       
+                      </div>
+                      <h5>
+                          Fitness & Cardio
+                      </h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="service__content__paragraph">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                    </div>
+                  </li>
+              </ul>
+          </div>
+          <div class="col col-lg-3">
+              <ul class="service__content">
+                  <li>
+                     
+                    <div class="service__content__heading">
+                      <div class="service__content__heading__icon">
+                        
+                          <div class="heading__icon--red">
+                            
+                            <div class="hi-icon">
+                                <i  class="fontawesome-icon  fas fa-unlink circle-yes"></i>
+                            </div>
+                          </div>
+                       
+                      </div>
+                      <h5>
+                          Flexibility & Rest
+                      </h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="service__content__paragraph">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                    </div>
+                  </li>
+              </ul>
+          </div>
+          <div class="col col-lg-3">
+              <ul class="service__content">
+                  <li>
+                     
+                    <div class="service__content__heading">
+                      <div class="service__content__heading__icon">
+                        
+                          <div class="heading__icon--red">
+                          
+                            <div class="hi-icon">
+                                <i  class="fontawesome-icon  fas fa-unlink circle-yes"></i>
+                            </div>
+                            
+                          
+  
+  
+  
+                          </div>
+                       
+                      </div>
+                      <h5>
+                          Health & Diet
+                      </h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="service__content__paragraph">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In augue nisl, ornare es volutpat etra us.</p>
+                    </div>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="overlay-landipage"></div>
+    </section> -->
+        <!--section service-->
+        <!-- <section class="section section-work">
+      <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-2 col-md-4">
+              <div class="icon-box align-center animatedzomeout">
+                <div class="animated-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M30,42L26,46L18,38L22,34L62,1L63,2Z" style="stroke-dasharray: 128, 130; stroke-dashoffset: 0;"></path>
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M22,34L30,42" style="stroke-dasharray: 12, 14; stroke-dashoffset: 0;"></path>
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M26,46c0,0-8,17-25,17c0,0,2.752-16.314,9-21  c4-3,8-4,8-4" style="stroke-dasharray: 65, 67; stroke-dashoffset: 0;"></path>
+                      </svg>
+                </div>
+                <h4>stunning design</h4>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-4">
+                <div class="icon-box align-center animatedzomeout">
+                <div class="animated-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M12,32A20,20 0,1,1 52,32A20,20 0,1,1 12,32" style="stroke-dasharray: 126, 128; stroke-dashoffset: 0;"></path>
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M20,15L20,1L44,1L44,15" style="stroke-dasharray: 52, 54; stroke-dashoffset: 0;"></path>
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M44,49L44,63L20,63L20,49" style="stroke-dasharray: 52, 54; stroke-dashoffset: 0;"></path>
+                      <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,20L32,32L40,36" style="stroke-dasharray: 21, 23; stroke-dashoffset: 0;"></path>
+                      </svg>
+                </div>
+                <h4>time saver</h4>
+              </div>
+              </div>
+              <div class="col-lg-2 col-md-4">
+                  <div class="icon-box align-center animatedzomeout">
+                  <div class="animated-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M1,63L1,2L62,63Z" style="stroke-dasharray: 209, 211; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M14,54L14,30L38,54Z" style="stroke-dasharray: 82, 84; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M8,22L2,22" style="stroke-dasharray: 6, 8; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M6,30L2,30" style="stroke-dasharray: 4, 6; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M8,38L2,38" style="stroke-dasharray: 6, 8; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M6,46L2,46" style="stroke-dasharray: 4, 6; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M8,54L2,54" style="stroke-dasharray: 6, 8; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M25,1L19,7L55,43L63,45L61,37Z" style="stroke-dasharray: 127, 129; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M25,13L31,7" style="stroke-dasharray: 9, 11; stroke-dashoffset: 0;"></path>
+                        </svg>
+                  </div>
+                  <h4>clean code</h4>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4">
+                  <div class="icon-box align-center animatedzomeout">
+                  <div class="animated-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M3.7079999999999984,35A28.292,28.292 0,1,1 60.292,35A28.292,28.292 0,1,1 3.7079999999999984,35" style="stroke-dasharray: 178, 180; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M37,40L45,21L26,29L19,47Z" style="stroke-dasharray: 80, 82; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M26,29L37,40" style="stroke-dasharray: 16, 18; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M36.9,7C36.965,6.677,37,6.342,37,6  c0-2.761-2.239-5-5-5s-5,2.239-5,5c0,0.342,0.035,0.677,0.1,1" style="stroke-dasharray: 18, 20; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,7L32,12" style="stroke-dasharray: 5, 7; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,58L32,63" style="stroke-dasharray: 5, 7; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M60,35L55,35" style="stroke-dasharray: 5, 7; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M9,35L4,35" style="stroke-dasharray: 5, 7; stroke-dashoffset: 0;"></path>
+                        </svg>
+                  </div>
+                  <h4>customizable</h4>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4">
+                  <div class="icon-box align-center animatedzomeout">
+                  <div class="animated-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="62" height="14" d="M1 1 L63 1 L63 15 L1 15 Z" style="stroke-dasharray: 152, 154; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="48" d="M1 15 L32 15 L32 63 L1 63 Z" style="stroke-dasharray: 158, 160; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="15" height="48" d="M32 15 L47 15 L47 63 L32 63 Z" style="stroke-dasharray: 126, 128; stroke-dashoffset: 0;"></path>
+                        <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="16" height="48" d="M47 15 L63 15 L63 63 L47 63 Z" style="stroke-dasharray: 128, 130; stroke-dashoffset: 0;"></path>
+                        </svg>
+                  </div>
+                  <h4>perfect layout</h4>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-4">
+                  <div class="icon-box align-center animatedzomeout">
+                  <div class="animated-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" id="Layer_1" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                        <g>
+                          <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M29,6L46,6L63,27L32,58L1,27L18,6L32,6L32,58" style="stroke-dasharray: 225, 227; stroke-dashoffset: 0;"></path>
+                          <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,57L18,27L24,6" style="stroke-dasharray: 55, 57; stroke-dashoffset: 0;"></path>
+                          <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M32,57L46,27L40,6" style="stroke-dasharray: 55, 57; stroke-dashoffset: 0;"></path>
+                          <path fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M1,27L63,27" style="stroke-dasharray: 62, 64; stroke-dashoffset: 0;"></path>
+                        </g>
+                        </svg>
+                  </div>
+                  <h4>retina ready</h4>
+                  </div>
+              </div>
+          </div>
+ 
+          
+          <div class="row justify-content-center">
+            <div class="col-lg-4 animated">
+              <div class="title">
+                <h1>what we do</h1>
+              </div>
+              <div class="paragraph">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam quibusdam repellat vero, recusandae excepturi dignissimos velit et alias amet, quia facilis perferendis.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <ul class="unlist left-check-list">
+                <li class="data-list">
+                    <i class="far fa-check-circle"></i>
+
+                </li>
+                <li class="data-list">
+                    <i class="far fa-check-circle"></i>
+                </li>
+                <li class="data-list">
+                    <i class="far fa-check-circle"></i>
+                </li>
+                <li class="data-list">
+                    <i class="far fa-check-circle"></i>
+                </li>
+                <li class="data-list">
+                    <i class="far fa-check-circle"></i>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+                <ul class="unlist right-check-list">
+                    <li class="data-list">
+                        <i class="far fa-check-circle"></i>
+    
+                    </li>
+                    <li class="data-list">
+                        <i class="far fa-check-circle"></i>
+                    </li>
+                    <li class="data-list">
+                        <i class="far fa-check-circle"></i>
+                    </li>
+                    <li class="data-list">
+                        <i class="far fa-check-circle"></i>
+                    </li>
+                    <li class="data-list">
+                        <i class="far fa-check-circle"></i>
+                    </li>
+                  </ul>
+            </div>
+          </div>
+            
+      </div>
+      
+      <div class="overlay-landipage"></div>
+    </section> -->
+        <!--MYSKILL SECTION -->
+        <section class="section state">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col col-lg-4 col-md-12">
+                        <!--img-->
+                        <div class="state__content">
+                            <div class="state__content__img"> </div>
+                            <div class="state__content__overlay">
+
+                            </div>
+                        </div>
+                        <div class="information__background__line">
+                            <h2>my skills</h2>
+                            <div class="information__line--yellow"></div>
+                        </div>
+                        <div class="overlay">
+
+                        </div>
+                    </div>
+                    <div class="col col-lg-7 col-md-12">
+                        <div class="row">
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col col-lg-3 col-md-12 state__paragraph">
+
+                                <div class="flex-wrapper">
+                                    <div class="single-chart">
+                                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                                            <path class="circle-bg" d="M18 2.0845
+                                  a 15.9155 15.9155 0 0 1 0 31.831
+                                  a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                            <path class="circle" stroke-dasharray="30, 100" d="M18 2.0845
+                                  a 15.9155 15.9155 0 0 1 0 31.831
+                                  a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                            <text x="18" y="20.35" class="percentage">30%</text>
+                                        </svg>
+                                    </div>
+
+                                </div>
+                                <p>design</p>
+                            </div>
+                            <div class="col-lg-9 col-md-12 px-5">
+                                <div class="progress-bar" data-percentage="55%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">Photoshop</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-percentage="25%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">Illustrator</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-percentage="25%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">3d mask</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 ">
+                            <div class="col col-lg-3 col-md-12 state__paragraph">
+                                <div class="flex-wrapper">
+                                    <div class="single-chart">
+                                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                                            <path class="circle-bg" d="M18 2.0845
+                              a 15.9155 15.9155 0 0 1 0 31.831
+                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                            <path class="circle" stroke-dasharray="35, 100" d="M18 2.0845
+                              a 15.9155 15.9155 0 0 1 0 31.831
+                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                            <text x="18" y="20.35" class="percentage">35%</text>
+                                        </svg>
+                                    </div>
+
+
+
+
+                                </div>
+                                <p>development</p>
+                            </div>
+                            <div class="col col-lg-9 col-md-12 px-5">
+                                <div class="progress-bar" data-percentage="35%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">java</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-percentage="90%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">html</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-percentage="95%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">c++</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col col-lg-3 col-md-12 state__paragraph">
+
+                                <div class="flex-wrapper">
+                                    <div class="single-chart">
+                                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                                            <path class="circle-bg" d="M18 2.0845
+                              a 15.9155 15.9155 0 0 1 0 31.831
+                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                            <path class="circle" stroke-dasharray="35, 100" d="M18 2.0845
+                              a 15.9155 15.9155 0 0 1 0 31.831
+                              a 15.9155 15.9155 0 0 1 0 -31.831" />
+                                            <text x="18" y="20.35" class="percentage">35%</text>
+                                        </svg>
+                                    </div>
+
+
+
+
+                                </div>
+                                <p>languages</p>
+                            </div>
+                            <div class="col col-lg-9 col-md-12 px-5">
+                                <div class="progress-bar" data-percentage="55%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">dutch</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-percentage="95%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">french</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar" data-percentage="95%">
+                                    <h4 class="progress-title-holder">
+                                        <span class="progress-title">english</span>
+                                        <span class="progress-number-wrapper">
+                                            <span class="progress-number-mark">
+                                                <span class="percent"></span>
+                                                <span class="down-arrow"></span>
+                                            </span>
+                                        </span>
+                                    </h4>
+                                    <div class="progress-content-outter">
+                                        <div class="progress-content"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--parallax page -->
+        <section class="section gallery">
+            <div class="container">
+                <div class="gallery__title">
+                    <h1>our team</h1>
+                    <p>Discover Our Talented Nerds</p>
+                </div>
+                <div class="gallery__slider">
+                    <div class="gallery__slider__team gallery__slider__team--effect">
+                        <img src="../codebase-landingpage/assets/images/team1.jpeg" alt="">
+
+                        <div class="gallery__slider__team__item">
+                            <h5 class="gallery__slider__team__item--hiden">jashon statham</h5>
+                            <p class="gallery__slider__team__item--hiden">web developer</p>
+                            <ul class="gallery__slider__team__item--unlist">
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M215.8 85H264V3.6C255.7 2.5 227.1 0 193.8 0 124.3 0 76.7 42.4 76.7 120.3V192H0v91h76.7v229h94V283h73.6l11.7-91h-85.3v-62.7c0-26.3 7.3-44.3 45.1-44.3z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-facebook-f"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-dribbble fa-w-16" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="dribbble" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-dribbble"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-behance fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="behance" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-behance"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-linkedin-in"></i> --></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gallery__slider__team gallery__slider__team--effect">
+                        <img src="../codebase-landingpage/assets/images/team2.jpeg">
+
+                        <div class="gallery__slider__team__item">
+                            <h5 class="gallery__slider__team__item--hiden">johny deep</h5>
+                            <p class="gallery__slider__team__item--hiden">web designer</p>
+                            <ul class="gallery__slider__team__item--unlist">
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M215.8 85H264V3.6C255.7 2.5 227.1 0 193.8 0 124.3 0 76.7 42.4 76.7 120.3V192H0v91h76.7v229h94V283h73.6l11.7-91h-85.3v-62.7c0-26.3 7.3-44.3 45.1-44.3z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-facebook-f"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-dribbble fa-w-16" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="dribbble" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-dribbble"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-behance fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="behance" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-behance"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-linkedin-in"></i> --></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gallery__slider__team gallery__slider__team--effect">
+
+                        <img src="../codebase-landingpage/assets/images/team3.jpeg">
+                        <div class="gallery__slider__team__item">
+                            <h5 class="gallery__slider__team__item--hiden">johny deep</h5>
+                            <p class="gallery__slider__team__item--hiden">web designer</p>
+                            <ul class="gallery__slider__team__item--unlist">
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M215.8 85H264V3.6C255.7 2.5 227.1 0 193.8 0 124.3 0 76.7 42.4 76.7 120.3V192H0v91h76.7v229h94V283h73.6l11.7-91h-85.3v-62.7c0-26.3 7.3-44.3 45.1-44.3z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-facebook-f"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-dribbble fa-w-16" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="dribbble" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-dribbble"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-behance fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="behance" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-behance"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-linkedin-in"></i> --></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="gallery__slider__team gallery__slider__team--effect">
+                        <img src="../codebase-landingpage/assets/images/team1.jpeg" alt="">
+
+                        <div class="gallery__slider__team__item">
+                            <h5 class="gallery__slider__team__item--hiden">jashon statham</h5>
+                            <p class="gallery__slider__team__item--hiden">web developer</p>
+                            <ul class="gallery__slider__team__item--unlist">
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-facebook-f fa-w-9" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="facebook-f" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M215.8 85H264V3.6C255.7 2.5 227.1 0 193.8 0 124.3 0 76.7 42.4 76.7 120.3V192H0v91h76.7v229h94V283h73.6l11.7-91h-85.3v-62.7c0-26.3 7.3-44.3 45.1-44.3z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-facebook-f"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg class="svg-inline--fa fa-dribbble fa-w-16" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="dribbble" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M256 8C119.252 8 8 119.252 8 256s111.252 248 248 248 248-111.252 248-248S392.748 8 256 8zm163.97 114.366c29.503 36.046 47.369 81.957 47.835 131.955-6.984-1.477-77.018-15.682-147.502-6.818-5.752-14.041-11.181-26.393-18.617-41.614 78.321-31.977 113.818-77.482 118.284-83.523zM396.421 97.87c-3.81 5.427-35.697 48.286-111.021 76.519-34.712-63.776-73.185-116.168-79.04-124.008 67.176-16.193 137.966 1.27 190.061 47.489zm-230.48-33.25c5.585 7.659 43.438 60.116 78.537 122.509-99.087 26.313-186.36 25.934-195.834 25.809C62.38 147.205 106.678 92.573 165.941 64.62zM44.17 256.323c0-2.166.043-4.322.108-6.473 9.268.19 111.92 1.513 217.706-30.146 6.064 11.868 11.857 23.915 17.174 35.949-76.599 21.575-146.194 83.527-180.531 142.306C64.794 360.405 44.17 310.73 44.17 256.323zm81.807 167.113c22.127-45.233 82.178-103.622 167.579-132.756 29.74 77.283 42.039 142.053 45.189 160.638-68.112 29.013-150.015 21.053-212.768-27.882zm248.38 8.489c-2.171-12.886-13.446-74.897-41.152-151.033 66.38-10.626 124.7 6.768 131.947 9.055-9.442 58.941-43.273 109.844-90.795 141.978z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-dribbble"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-behance fa-w-18" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="behance" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2.6-8.7.6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-behance"></i> --></a>
+                                </li>
+                                <li>
+                                    <a href="#"><svg class="svg-inline--fa fa-linkedin-in fa-w-14" aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="linkedin-in" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                            <path fill="currentColor"
+                                                d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z">
+                                            </path>
+                                        </svg><!-- <i class="fab fa-linkedin-in"></i> --></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+            </div>
+
+
+
+            </div>
+        </section>
+        <section class="section particle" id="particles-js">
+            <div class="container">
+                <div class="row">
+                    <div class="particle__title">
+                        <h1>Welcome to <span>sumusurif</span>agency</h1>
+                        <p>We Craft Digital Solutions and Creative Designs</p>
+                        <div class="button">
+                            <button class="button particle__title__button--orange">change</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <section class=" section discover">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="discover__list">
+                            <div class="discover__list__item">
+                                <div class="discover__list__item__content">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span id="icon__chart"><i class="fas fa-chart-line fa-3x"></i></span>
+                                        </div>
+                                        <div class="col-10 color-white">
+                                            <h4>Professional</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing el. Sed sed ex
+                                                suscipit
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="discover__list__item">
+                                <div class="discover__list__item__content">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span id="icon__acessible"><i
+                                                    class="fab fa-accessible-icon fa-3x"></i></span>
+                                        </div>
+                                        <div class="col-10 color-white">
+                                            <h4>Professional</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing el. Sed sed ex
+                                                suscipit
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discover__list__item">
+                                <div class="discover__list__item__content">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span id="icon__compass"><i
+                                                    class="fas fa-drafting-compass fa-3x"></i></span>
+                                        </div>
+
+                                        <div class="col-10 color-white">
+                                            <h4>Professional</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing el. Sed sed ex
+                                                suscipit
+                                            </p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="discover__list__item">
+                                <div class="discover__list__item__content">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <span id="icon__globe"><i class="fa fa-globe fa-3x"
+                                                    aria-hidden="true"></i></span>
+                                        </div>
+
+                                        <div class="col-10 color-white">
+                                            <h4>Professional</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing el. Sed sed ex
+                                                suscipit
+                                            </p>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row discover__shape">
+                    <div class="col-4 align__content">
+                        <div class="rectangle">
+
+                        </div>
+                    </div>
+                    <div class="col-4 align__content">
+                        <div class="triangle">
+
+                        </div>
+                    </div>
+                    <div class="col-4 align__content">
+                        <div class="triangle__two"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section services">
+            <div class="container">
+                <div class="row">
+                    <div class="services__title">
+                        <h3>Our service</h3>
+                        <h1>what can we do</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Sed sed ex suscipit, ultrices turpis eget.maximus ante.
+                            Orci varius natoque penatibus et magnis dis parturient montes.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 py-20">
+                        <div class="services__content">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="services__content__icon">
+                                        <i class="fas fa-pencil-alt fa-3x" id="icon--red"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 px-3">
+                                    <div class="services__content__paragraph">
+                                        <h4>User interface</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__content__bgicon">
+                                <i class="fas fa-pencil-alt fa-5x" id="icon--red"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-20">
+                        <div class="services__content">
+                            <div class="services__content">
+                                <div class="row">
+                                    <div class="col-lg-2">
+                                        <div class="services__content__icon">
+                                            <i class="far fa-flag fa-3x" id="icon--orange"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-10">
+                                        <div class="services__content__paragraph">
+                                            <h4>User experience</h4>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex
+                                                suscipit
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services__content__bgicon">
+                                    <i class="far fa-flag fa-5x" id="icon--orange"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-20">
+                        <div class="services__content">
+
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="services__content__icon">
+                                        <i class="fas fa-lightbulb fa-3x" id="icon--purple"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="services__content__paragraph">
+                                        <h4>creative design</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex
+                                            suscipit
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__content__bgicon">
+                                <i class="fas fa-lightbulb fa-5x" id="icon--purple"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-20">
+                        <div class="services__content">
+
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="services__content__icon">
+                                        <i class="fas fa-puzzle-piece fa-3x" id="icon--green"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 mx-20">
+                                    <div class="services__content__paragraph">
+                                        <h4>clean code</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex
+                                            suscipit
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__content__bgicon">
+                                <i class="fas fa-puzzle-piece fa-5x" id="icon--green"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-20">
+                        <div class="services__content">
+
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="services__content__icon">
+                                        <i class="fas fa-bullhorn fa-3x" id="icon--purple"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="services__content__paragraph">
+                                        <h4>branding</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex
+                                            suscipit
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__content__bgicon">
+                                <i class="fas fa-bullhorn fa-5x" id="icon--purple"></i>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 py-20">
+                        <div class="services__content">
+
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="services__content__icon">
+                                        <i class="fas fa-cogs fa-3x" id="icon--red"></i>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="services__content__paragraph">
+                                        <h4>24/7 support</h4>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex
+                                            suscipit
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="services__content__bgicon">
+                                <i class="fas fa-cogs fa-5x" id="icon--red"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="section client">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="client__title">
+                            <h3>our client</h3>
+                            <h1>what they say about us</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit, ultrices
+                                turpis eget.maximus ante. Orci varius natoque penatibus et magnis dis parturient montes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="client__content">
+                            <div class="client__content__slider">
+                                <div class="client__content__slider--border">
+                                    <div class="client__content__slider__img" id="img__testimonial-1">
+                                        <div class="client__content__slider__overlay"></div>
+                                    </div>
+
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit,
+                                        ultrices turpis eget.maximus ante.</p>
+                                    <h3>john nour</h3>
+                                    <h5>project mananger</h5>
+                                </div>
+                                <div class="client__content__slider__line"></div>
+                            </div>
+                            <div class="client__content__slider">
+                                <div class="client__test">
+                                    <div class="client__content__slider__img" id="img__testimonial-2">
+                                        <div class="client__content__slider__overlay"></div>
+                                    </div>
+
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit,
+                                        ultrices turpis eget.maximus ante.</p>
+                                    <h3>Louis foreach</h3>
+                                    <h5>Web designer</h5>
+                                </div>
+                                <div class="client__content__slider__line"></div>
+                            </div>
+                            <div class="client__content__slider">
+                                <div class="client__test">
+                                    <div class="client__content__slider__img" id="img__testimonial-3">
+                                        <div class="client__content__slider__overlay"></div>
+                                    </div>
+
+                                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit,
+                                        ultrices turpis eget.maximus ante.</p>
+                                    <h3>lucas parker</h3>
+                                    <h5>Web developer</h5>
+                                </div>
+                                <div class="client__content__slider__line"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact__title">
+                        <h3>contact us</h3>
+                        <h1>drop us a line </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed ex suscipit, ultrices turpis
+                            eget.maximus ante. Orci varius natoque penatibus et magnis dis parturient montes.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="contact__box">
+                            <div class="row">
+                                <div class="col-12 mb-4 ">
+                                    <div class="contact__box__content py-4 px-4">
+                                        <div class="row">
+                                            <div class="col-2 ">
+                                                <i class="fas fa-street-view fa-2x" id="icon--red"></i>
+                                            </div>
+                                            <div class="col-10 3">
+                                                <h4>visit us</h4>
+                                                <p>Metrotech Center, Brooklyn, NY 11201</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4 ">
+                                    <div class="contact__box__content py-4 px-4">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <i class="fas fa-phone-volume fa-2x" id="icon--purple"></i>
+                                            </div>
+                                            <div class="col-10 3">
+                                                <h4>call us</h4>
+                                                <p>(+84)764483638</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-4">
+                                    <div class="contact__box__content py-4 px-4">
+                                        <div class="row">
+                                            <div class="col-2">
+                                                <i class="fas fa-reply fa-2x" id="icon--orange"></i>
+                                            </div>
+                                            <div class="col-10 ">
+                                                <h4>contact us</h4>
+                                                <p>ngotruongquoc0102@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="contact__form">
+                            <form action="" autocomplete="off">
+                                <input type="text" placeholder="Yourname" name="name">
+                                <input type="text" placeholder="yourE-mail" name="email">
+                                <input type="text" placeholder="YourSubject" name="subject">
+                                <textarea name="Typeyourmessage" id="" cols="30" rows="5"
+                                    placeholder="typeYourMessage"></textarea>
+                                <div class="button">
+                                    <button type="submit" class="btn btn--orange">send a message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+
+    <!--
+    =============================================
+    Foooter Page
+    =============================================
+    -->
+    <footer class="section footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-3">
+                    <div class="footer__content">
+                        <div class="footer__content__icon">
+                            <div class="row">
+                                <div class="col">
+                                    <a href=""><i class="fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a href=""> <i class="fab fa-behance"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a href=""><i class="fab fa-linkedin"></i></a>
+                                </div>
+                                <div class="col">
+                                    <a><i class="fas fa-basketball-ball"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__content__copyright">
+                            <a href="">
+                                © Cukur
+                            </a>
+                        </div>
+                        <div class="footer__content__admin">
+                            <h5>made by TruongQuoc</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript _____________________________  -->
+    <!-- chèn những thư viên js, ví dụ jQuery, không dùng thì xóa đi -->
+    <!-- jQuery -->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="../codebase-landingpage/assets/js/jquery-modal-video.min.js"></script>
+    <script src="./assets/js/modal-video.js"> </script>
+    <!--count-up library-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="../codebase-landingpage//assets/js/sliderdemo.js"></script>
+    <script src="../codebase-landingpage/assets/js/slider.js"></script>
+    <script src="../codebase-landingpage/assets/js/app.js"></script>
+    <script src="../codebase-landingpage/assets/js/particles.js"></script>
+    <script src="../codebase-landingpage/assets/js/particle.js"></script>
+    <script>
+        jQuery(document).ready(function () {
+
+            jQuery('.progress-bar').each(function () {
+                jQuery(this).find('.progress-content').animate({
+                    width: jQuery(this).attr('data-percentage')
+                }, 2000);
+
+                jQuery(this).find('.progress-number-mark').animate({
+                    left: jQuery(this).attr('data-percentage')
+                }, {
+                    duration: 2000,
+                    step: function (now, fx) {
+                        var data = Math.round(now);
+                        jQuery(this).find('.percent').html(data + '%');
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!--SLIDER-->
+
+</body>
+
+</html>

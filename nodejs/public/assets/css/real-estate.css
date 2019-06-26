@@ -1,0 +1,443 @@
+/* CSS Document */
+
+/*
+    Created on   : ngày tạo
+    Theme Name   : Tên theme
+    Version      : 1.0.
+    Author       : Tác giả theme
+    Developed by : Người code
+
+*/
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+/*   01 - Global style  */
+/*   02 - Prefix  */
+/*   03 - Section 1 */
+/*   04 - Section 2 */
+/*   05 - Section 3  */
+
+
+
+
+/**
+* Importing necessary  Styles.*/
+/*---- Bootstrap css ----- */
+@import url('../bootstrap/css/bootstrap.min.css');
+
+
+@import url('./real-estate-component.css');
+
+/* Import responsive */
+@import url('./real-estate-responsive.css');
+
+/* Import modal video */
+@import url('../css/modal-video.min.css');
+
+/* Import lightbox */
+@import url('../css/lightbox.min.css');
+
+/* Import animate on scroll */
+@import url('../css/aos.css');
+
+
+/* Import Responsive */
+
+/*______________________ Global style ___________________*/
+
+* {
+  box-sizing: border-box;
+}
+i {
+  font-size: 14px;    
+}
+
+.pd-200 {
+  padding: 200px 0;
+}
+body {
+  font-size: 14px;
+  color: #707070;
+  line-height: 20px;
+}
+form {
+  padding: 1.25rem;
+}
+
+.color--white {
+  color: #fff!important;
+}
+.color--yellow {
+  color: #FFD012;
+}
+.section {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+/* Icon----Bar */
+
+.icon-bar {
+  display: block;
+  height: 2px;
+  width: 25px;
+  background: #FFD012;
+  margin: 7px 0;
+  transition: .3s ease-in-out;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+.nav-link {
+  text-align: center;
+}
+.nav-item a {
+  color: #fff;
+  font-size: 18px;
+}
+.nav-item:hover a {
+  color: #eae606;
+}
+
+/* chèn font, định nghĩa cho các thẻ body, h, a,... */
+
+/* Edit Form */
+
+
+/*----------- Prefix -----------*/
+
+/* Menu */
+
+
+/* Style */
+/* Những style chung như class màu chữ, class màu nền,... */
+/* Padding */
+/* Những pading kiểu như boostrap */
+/* Margin */
+/* Những margin kiểu như boostrap */
+/* Css chung khác tự đặt tên */
+
+/* ------------ Section Nav-------------- */
+.navbar__menu {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  /* background: rgba(17, 17, 17, 0.5); */
+  top: 0;
+  left: 0;   
+  z-index: 3;
+  transition: 0.35s
+}
+
+.change__background {
+  background: #fff;
+}
+/*----------- Section Header -----------*/
+.header {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 150px;
+  background-attachment: fixed;
+}
+
+.header__content {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.header__content__img {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.header__content__img img {
+  object-fit: cover;
+}
+
+.header__title h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.header__content__title {
+  width: 100%;
+}
+
+.header__content__title h1,
+.header__content__title p {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header__content__title p {
+  font-size: 1.5rem;
+}
+
+.header__content__title h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.header__content__button button {
+  margin: 0 auto;
+}
+
+.header__rectangle__left {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: #fff;
+  bottom: 0;
+  left: 0;
+  transform-origin: top left;
+  transform: rotate(26deg);
+}
+.header__rectangle__right {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background: #fff;
+  bottom: 0;
+  right: 0;
+  transform-origin: top right;
+  transform: rotate(-26deg);
+}
+.header__overlay {
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(17, 17, 17, 0.5);
+  z-index: -1;
+}
+.header__content__icon {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.angle__bottom {
+  transition: 0.35s;
+  padding: 100px 0;
+  clip-path: polygon(100% 80%, 50% 100%, 0 80%, 0 0, 100% 0);
+}
+
+
+/* Header Video */
+
+.img-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%!important;
+  z-index: -2!important;
+}
+
+/*----------- Section Introduce -----------*/
+
+.introduce {
+  background: #fff;
+}
+
+.introduce__title {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.introduce__box {
+  padding: 50px 100px;
+}
+
+.typography__custom {
+  margin: 0 auto;
+}
+
+.typography__custom h1 {
+  text-transform: uppercase !important;
+  font-weight: 700;
+}
+
+/*----------- Section Motivation -----------*/
+.motivation {
+  background-image: linear-gradient(rgba(17, 17, 17, 0.7), rgba(17, 17, 17, 0.7)), url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  /* padding-bottom: 150px; */
+}
+
+.motivation__title {
+  margin: 50px 0 50px 0;
+}
+
+.motivation__title h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: normal;
+}
+
+.motivation__title p {
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.motivation__title .auth::before {
+  content: '';
+  display: inline-block;
+  position: relative;
+  width: 37px;
+  border-top: 2px solid #eae606;
+  top: -2px;
+  left: -3px
+}
+
+.motivation__title .auth::after {
+  content: '';
+  position: relative;
+  display: inline-block;
+  width: 37px;
+  border-top: 2px solid #eae606;
+  margin-top: -3px;
+  top: -2px;
+  right: -3px
+}
+
+.motivation__title span {
+  color: #eae606;
+}
+
+/*----------- Section Service -----------*/
+
+.service {
+  padding: 100px 0;
+}
+
+/*----------- Section Archivement -----------*/
+
+.archievement {
+  padding: 100px 0;
+}
+
+.archievement__title {
+  width: 100%;
+}
+
+.archievement__list h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #24262b;
+}
+
+.archievement__list {
+  padding: 50px 20px;
+  background: #F9F9F9;
+}
+
+/* -----------Section Partner------------- */
+
+.partner {
+  padding: 200px 0;
+}
+
+.partner__box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 1px solid #eae606;
+  border-top: none;
+}
+
+.partner__box__content li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 30px 30px 20px 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.partner__box::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  border: 1px solid #eae606;
+}
+
+.partner__box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  border: 1px solid #eae606;
+}
+
+.partner__box__title {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.partner__box__title h2 {
+  text-transform: uppercase;
+  font-size: 24;
+
+}
+
+/* -----------S1ection Price------------- */
+
+.price {
+  padding: 100px 0;
+}
+
+.carousel-indicators li {
+  background-color: #eae606!important;
+}
+.carousel-indicators {
+  bottom: -50px!important;
+}
+
+/* -----------S1ection Price------------- */
+
+.footage {
+  padding: 100px 0;
+  background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* -----------S1ection Price------------- */
+
+.testimonial {
+  padding: 100px 50px 200px 50px;
+  background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/BEST-CITY-BREAKS-IN-MARCH-Paris-856x571.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+

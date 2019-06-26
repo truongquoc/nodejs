@@ -1,0 +1,232 @@
+@media (min-width: 1200px) {  }
+   /* nav--bar */
+  .navbar-header, .navbar__menu__custom {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar__fixed {
+    display: flex;
+  }
+ 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*----------- Navbar -----------*/
+.navbar-header, .navbar__menu__custom {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.navbar-toggler {
+  display: none;
+}
+
+/*----------- Section 2 -----------*/
+
+/*----------- Section 3 -----------*/
+
+/*----------- Section 4 -----------*/
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*----------- Navbar -----------*/
+.navbar-header, .navbar__menu__custom {
+  display: none;
+  
+}
+.navbar-toggler {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Navbar--Effect */
+.navbar-toggler:focus {
+  outline: none;
+}
+.navbar__fixed {
+  display: none;
+}
+/*----------- Parallax -----------*/
+.parallax__fixed__content__title {
+  text-align: center;
+}
+.parallax__fixed__content__title p {
+  width: 100%;
+
+}
+
+/*----------- Section--introduce -----------*/
+.introduce__content__title h2 {
+  font-size: 30px;
+  
+}
+
+/* Section--Information */
+#introduce--hiden {
+  display: none;
+}
+.button--yellow {
+  padding: 10px 20px;
+
+}
+.informatiuon__content__factitle {
+  width: 30%;
+
+
+}
+/* section-state */
+.state__content .state__content__img {
+  display: none; 
+}
+.state__paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+
+}
+.state__paragraph p {
+  width: 100%;
+
+}
+.information__background__line{
+  width: 100%;
+  text-align: center;
+
+}
+.information__line--yellow {
+  margin: 0 auto;
+}
+.information__line--yellow::before {
+  left: 50%;
+  top: 0;
+}
+.information__background__line h2 {
+  color: rgb(54, 50, 50);
+}
+.flex-wrapper {
+  width: 100%;
+  height: 80%;
+}
+/* gallery */
+.gallery__title p {
+  font-size: 30px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*----------- Nav-bar -----------*/
+.navbar__menu {
+  border-bottom: 1px solid rgba(255, 255, 255, .05);
+  z-index: 1000;
+
+}
+.navbar-header, .navbar__menu__custom {
+  display: none;
+  
+}
+.navbar-toggler {
+  display: block;
+}
+.navbar__fixed {
+  display: none;
+}
+
+/*----------- Section--introduce -----------*/
+.introduce__content__title h2 {
+  font-size: 20px;
+  
+}
+
+  /* Section--Information */
+  #introduce--hiden {
+    display: none;
+  }
+  .button--yellow {
+    padding: 10px 20px;
+  
+  }
+  .informatiuon__content__factitle {
+    width: 30%;
+  }
+  
+  /* section-state */
+.state__content .state__content__img {
+  display: none; 
+}
+.state__paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+
+}
+.state__paragraph p {
+  width: 100%;
+
+}
+.information__background__line{
+  width: 100%;
+  text-align: center;
+
+}
+.information__line--yellow {
+  margin: 0 auto;
+}
+.information__line--yellow::before {
+  left: 50%;
+  top: 0;
+}
+.information__background__line h2 {
+  color: rgb(54, 50, 50);
+}
+.flex-wrapper {
+  width: 100%;
+  height: 80%;
+}
+
+/* gallery */
+.gallery__title p {
+  font-size: 30px;
+}
+
+}
+/*----------- Section 3 -----------*/
+
+@media (max-width: 575.98px) { 
+  /*----------- Nav-bar -----------*/
+  .navbar-header, .navbar__menu__custom {
+    display: none;
+    
+  }
+/*----------- Section--introduce -----------*/
+.introduce__content__title h2 {
+  font-size: 20px;
+  
+}
+
+  /* Section--Information */
+#introduce--hiden {
+  display: none;
+}
+.button--yellow {
+  padding: 10px 20px;
+
+}
+.informatiuon__content__factitle {
+  width: 30%;
+}
+
+/* gallery */
+.gallery__title p {
+  font-size: 30px;
+}
+
+
+}
+
+
+/* có thêm các media khác nếu thấy cần thiết */

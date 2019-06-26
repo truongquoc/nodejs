@@ -1,0 +1,134 @@
+@media (min-width: 1200px) {  }
+
+.navbar-toggler {
+    display: none;
+}
+.pd--custom {
+    padding: 150px 0 ;
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*----------- Section Navibar -----------*/
+
+.header__nav {
+    display: none;
+}
+.navbar-toggler {
+    display: block;
+}
+        /* Background for Navbar */
+.navbar-collapse {
+    background-color: rgba(17,17,17,0.5);
+}
+/*----------- Section Introduce -----------*/
+.introduce__box {
+     padding:50px 20px; 
+}
+/*----------- Section Service -----------*/
+
+.standard__inner {
+    width: 100%;
+
+}
+/*----------- Section Header -----------*/
+.pd--custom {
+    padding: 150px 0 ;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*----------- Section 1 -----------*/
+
+.header__nav {
+    display: none;
+}
+
+.navbar-toggler {
+    display: block;
+}
+/* Background for Navbar */
+.navbar-collapse {
+    background-color: rgba(17,17,17,0.5);
+}
+/*----------- Section Introduce -----------*/
+.introduce__box {
+    padding:50px 20px!important; 
+}
+
+/*----------- Section Header -----------*/
+.pd--custom {
+    padding: 50px 0 ;
+}
+
+/*----------- Section Service -----------*/
+.title__inline {
+    padding: 0 ;
+}
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*----------- Section 2 -----------*/
+
+
+.header__nav {
+    display: none;
+}
+.navbar-toggler {
+    display: block;
+}
+/* Background for Navbar */
+.navbar-collapse {
+    background-color: rgba(17,17,17,0.5);
+}
+/*----------- Section Introduce -----------*/
+.introduce__box {
+    padding:50px 20px!important; 
+}
+/*----------- Section Service -----------*/
+
+.standard__inner {
+    width: 100%;
+}
+.flier {
+    padding-bottom: 30px
+}
+/* --------------- Section Header --------------------- */
+
+
+}
+
+
+@media (max-width: 575.98px) { 
+    .header__nav {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    /* Background for Navbar */
+    .navbar-collapse {
+        background-color: rgba(17,17,17,0.5);
+    }
+
+    /* ----------------- Section Introduce ---------------- */
+    .introduce__box {
+        padding:50px 20px!important; 
+   }
+   /*----------- Section Service -----------*/
+
+    .standard__inner {
+    width: 100%;
+    }
+    .flier {
+        padding-bottom: 30px
+    }
+
+    .pd--custom {
+        margin-top: 1.2rem;
+    }
+}
+
+/* có thêm các media khác nếu thấy cần thiết */
