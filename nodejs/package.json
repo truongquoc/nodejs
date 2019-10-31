@@ -23,7 +23,7 @@
     "morgan": "~1.9.1",
     "mysql": "^2.17.1",
     "mysql-server": "^1.0.5",
-    "sequelize": "^5.8.11",
+    "sequelize": "^5.15.1",
     "tedious": "^6.2.0"
   },
   "devDependencies": {
